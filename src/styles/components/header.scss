@@ -1,0 +1,33 @@
+@import "../general/colors/general_colors";
+
+$primaryBgHeader: #b4e9e8;
+
+.header {
+  height: 100px;
+  background-color: $primaryBgHeader;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  justify-content: space-between;
+}
+
+.header_title {
+  font-weight: 700;
+}
+
+.header_menu {
+  display: flex;
+  column-gap: 8px;
+}
+
+.header_menu_button {
+  text-decoration: none;
+  background-color: $primaryBgHeader;
+  border: 2px solid $baseTypographyBlack;
+  border-radius: 12px;
+  padding: 5px 15px;
+}
+
+.header_menu_button:hover {
+  background-color: #a0cdcc;
+}
